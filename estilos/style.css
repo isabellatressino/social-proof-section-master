@@ -23,7 +23,7 @@ body{
     background-repeat: no-repeat;
     background-position: left top, right bottom;
     background-attachment: fixed;
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,14 +36,14 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 section.content-container h1{
     color: var(--very-dark-magenta);
     font-size: 2rem;
     text-align: center;
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
 }
 
 section.content-container p{
@@ -58,31 +58,31 @@ section.review-container{
 
 div.review{
     background-color: var(--light-grayish-magenta);
-    padding: 10px;
-    margin: 10px;
-    border-radius: 8px;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    border-radius: 0.5rem;
 }
 
 div.review img{
-    margin: 0px 3px;
+    margin: 0rem 0.1875rem;
 }
 
 div.review p{
     color: var(--very-dark-magenta);
     font-weight: 700;
-    margin-top: 6px;
+    margin-top: 0.375rem;
 }
 
 div.social{
     background-color: var(--very-dark-magenta);
-    padding: 20px;
-    margin: 15px 0px;
-    border-radius: 5px;
+    padding: 1.25rem;
+    margin: 0.9375rem 0rem;
+    border-radius: 0.3125rem;
     display: grid;
     grid-template-areas: 'img user' 'p p';
     grid-template-columns: auto 1fr;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 div.user{
@@ -91,7 +91,7 @@ div.user{
 
 div.social img{
     border-radius: 50%;
-    width: 40px;
+    width: 2.5rem;
     grid-area: img;
 }
 
@@ -99,7 +99,7 @@ p.name{
     font-weight: 700;
     font-size: 1rem;
     color: var(--light-grayish-magenta);
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
 }
 
 p.verified{
@@ -112,13 +112,13 @@ p.comment{
     line-height: 1.4rem;
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:37.5rem){
     body{
-        padding: 30px 70px;
+        padding: 1.875rem 4.375rem;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 48rem){
     body{
         background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
     }
@@ -129,27 +129,27 @@ p.comment{
         grid-template-columns: 1fr max-content;
         justify-content: center;
         align-items: center;
-        gap: 20px;
-        max-width: 1000px;
+        gap: 1.25rem;
+        max-width: 62.5rem;
     }
 
     section.content-container{
         grid-area: content-container;
-        max-width: 450px;
+        max-width: 28.125rem;
     }
 
     section.content-container h1{
         text-align: left;
         font-size: 3.3rem;
         padding-left: 0px;
-        margin-right: 50px;
+        margin-right: 3.125rem;
     }
 
     section.content-container p{
         text-align: left;
         font-size: 1.1rem;
         line-height: 1.5rem;
-        margin-top: 10px;
+        margin-top: 0.625rem;
     }
 
     .review-container{
@@ -157,48 +157,48 @@ p.comment{
     }
 
     div.review{
-        padding: 15px;
+        padding: 0.9375rem;
     }
 
     .review p{
-        margin-left: 5px;
+        margin-left: 0.3125rem;
         display: inline;
     }
 
     div.r1{
-        margin-right: 100px;
+        margin-right: 6.25rem;
     }
 
     div.r2{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 3.125rem;
+        margin-right: 3.125rem;
     }
 
     div.r3{
-        margin-left: 100px;
+        margin-left: 6.25rem;
     }
 
     .social-container{
         grid-area: social-container;
         display: flex;
         justify-content: center;
-        gap: 30px;
+        gap: 1.875rem;
     }
 
     div.social{
-        padding: 30px;
+        padding: 1.875rem;
     }
 
     div.s1{
-        margin-bottom: 60px;
+        margin-bottom: 3.75rem;
     }
 
     div.s2{
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
     }
 
     div.s3{
-        margin-top: 60px;
+        margin-top: 3.75rem;
     }
 }
